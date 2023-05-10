@@ -2,6 +2,7 @@
 
 import NextNavbar from "@/components/Navbar/Navbar";
 import HeaderBar from "@/components/HeaderBar/HeaderBar";
+import NewsLetter from "@/components/NewsLetter/NewsLetter";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       <HeaderBar />
       <NextNavbar />
       {/* <Content /> */}
-      {/* <NewsLetter /> */}
+      <NewsLetter />
       {/* <Footer /> */}
     </main>
   );
