@@ -1,9 +1,16 @@
-// HeaderBar
-// NavBar
-// Content
-// NewsLetter
-// Footer
+"use client";
+
+import NextNavbar from "@/components/Navbar/Navbar";
 
 export default function Home() {
-  return <div>Karhub</div>;
+  return (
+    <main>
+      {/* <HeaderBar /> */}
+      <NextNavbar />
+      {/* <HeaderBar /> */}
+      {/* <Content /> */}
+      {/* <NewsLetter /> */}
+      {/* <Footer /> */}
+    </main>
+  );
 }
