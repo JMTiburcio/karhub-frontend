@@ -1,13 +1,13 @@
 "use client";
 
 import NextNavbar from "@/components/Navbar/Navbar";
+import HeaderBar from "@/components/HeaderBar/HeaderBar";
 
 export default function Home() {
   return (
     <main>
-      {/* <HeaderBar /> */}
+      <HeaderBar />
       <NextNavbar />
-      {/* <HeaderBar /> */}
       {/* <Content /> */}
       {/* <NewsLetter /> */}
       {/* <Footer /> */}
